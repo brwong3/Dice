@@ -98,7 +98,7 @@ void setup() {
  y = 10;
  fill(0);
  textSize(50);
- text("FrameRate" + ":" + " " +  framerate,10,570);
+ text("Framerate" + ":" + " " +  framerate,10,570);
  text("Sum" + ":" + " " + total, 550,570);
 }
 
@@ -123,7 +123,7 @@ void draw() {
    
    fill(0);
    textSize(50);
-   text("FrameRate" + ":" + " " +  framerate,10,570);
+   text("Framerate" + ":" + " " +  framerate,10,570);
    text("Sum" + ":" + " " + total, 550,570);
    
 }
