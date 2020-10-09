@@ -123,7 +123,7 @@ void draw() {
    
    fill(0);
    textSize(50);
-   text("Frame" + " " "Rate" + ":" + " " +  framerate,10,570);
+   text("Frame" + " " + "Rate" + ":" + " " +  framerate,10,570);
    text("Sum" + ":" + " " + total, 550,570);
    
 }
