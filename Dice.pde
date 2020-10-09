@@ -98,17 +98,17 @@ void setup() {
  y = 10;
  fill(0);
  textSize(50);
- text("FrameRate" + ":" + frameRate,10,570);
+ text("FrameRate" + ":" + framerate,10,570);
  text("Sum" + ":" + total, 550,570);
 }
 
-int frameRate = 1;
+int framerate = 1;
 int total = 0;
 
 void draw() {
   total = 0;
   background((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
-  frameRate(frameRate);
+  frameRate(framerate);
   for(int i = 0; i < 5; i++) {
     for(int j = 0; j < 8; j++) {
       Dice dice = new Dice(x,y);
@@ -123,14 +123,15 @@ void draw() {
    
    fill(0);
    textSize(50);
-   text("FrameRate" + ":" + frameRate,10,570);
+   text("FrameRate" + ":" + framerate,10,570);
    text("Sum" + ":" + total, 550,570);
    
 }
   
 void mousePressed() {
   redraw();
-  frameRate += 1;
+  framerate += 1;
   
 }
+  
   
